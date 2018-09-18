@@ -1,0 +1,115 @@
+/* General setup */
+/* Remember to always comment*/
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+
+header {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+section h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+
+}
+
+.first_p_after_heading{
+  text-indent: 20px;
+}
+
+a{
+  font-size:14px;
+  font-weight: bold;
+  }
+
+  a[href^="https://"]:after {
+      content: url(https://cdn0.iconfinder.com/data/icons/web-application-2-sketch/64/external_link_application_web_interface_software-16.png);
+  }
+
+a:link{
+  color: #993333;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a:active{
+  text-decoration:none;
+  color: #993333;
+}
+
+a:visited{
+  text-decoration: none;
+  color: blue;
+}
+
+a:focus{
+  color: #993333
+}
+
+aside { 
+  float: left;
+  width: 30%;
+}
+
+
+nav li{
+  float: left;
+  margin-left:120px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+ul{
+  list-style-type: square;
+}
+
+.first_ul{
+  line-height: 1.5;
+
+}
+
+.second_ul{
+  line-height: 1.5;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
